@@ -50,7 +50,7 @@ server.put('/livraria/:id', function(request, response) {
 server.delete('/livraria/:id', function(request, response) {
     const id = request.params.id;
     for (let i = 0; i < livros.lenght; i++){
-        if (livros[i].cod ==id) {
+        if (livros[i].cod == id) {
             livros.splice(i,1);
             break;
         }
