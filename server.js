@@ -23,7 +23,7 @@ server.post('/livraria', function (request, response) {
     const genero = request.body.genero;
     const quantidade = request.body.quantidade;*/
     //pode ser escrito de maneira simplificada:
-    const {cod, titulo, autor, genero, quantidade} = request.body;   //desesetruturação possívl no js
+    const {cod, titulo, autor, genero, quantidade} = request.body;   //desestruturação possívl no js
 
     livros.push({cod, titulo, autor,genero, quantidade});
     response.status(204).send();
