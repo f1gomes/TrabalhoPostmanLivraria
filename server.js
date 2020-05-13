@@ -8,7 +8,7 @@ const livros = [
     {   cod:1,
         titulo:"O Guia do Mochileiro das Galaxias",
         autor:"Douglas Adams",
-        genero:"aventura",
+        genero:"aventura - teste1",
         quantidade:2,
     },
 ]
